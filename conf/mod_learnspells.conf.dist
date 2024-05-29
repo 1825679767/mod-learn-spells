@@ -1,24 +1,24 @@
 [worldserver]
 
-###################################################################################################
-#	Learn spells on level-up
-###################################################################################################
-
-# Enable the module? (1: true | 0: false)
-
-LearnSpells.Enable = 1
-
-# Announce the module when the player logs in?
-
-LearnSpells.Announce = 1
-
-# Should the player receive all spells on first login?
-# Useful for instant leveling type of servers
-# (1: true | 0: false)
-
-LearnSpells.OnFirstLogin = 0
-
-# Max level Limit the player will learn spells
-# 	Default:  = 80
-
+#######################################################################################################  
+#	升级时学习法术  
+#######################################################################################################  
+  
+# 启用模块？ (1: 是 | 0: 否)  
+  
+LearnSpells.Enable = 1  
+  
+# 当玩家登录时宣布该模块？  
+  
+LearnSpells.Announce = 0  
+  
+# 玩家首次登录时应接收所有法术吗？  
+# 对于即时升级类型的服务器很有用  
+# (1: 是 | 0: 否)  
+  
+LearnSpells.OnFirstLogin = 0  
+  
+# 玩家学习法术的最大等级限制  
+# 	默认值:  = 80  
+  
 LearnSpells.MaxLevel = 80
